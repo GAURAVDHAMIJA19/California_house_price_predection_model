@@ -34,7 +34,7 @@ st.write(pd.DataFrame(dict(zip(col,all_values)),index =[1]))
 progress_bar= st.progress(0)
 placeholder=st.empty()
 placeholder.subheader('predicting price')
-place=st.empty
+place=st.empty()
 place.image('https://cdn-icons-gif.flaticon.com/11677/11677497.gif')
  
 if price>0:
